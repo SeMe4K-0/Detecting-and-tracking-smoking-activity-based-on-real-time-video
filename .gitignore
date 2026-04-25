@@ -1,0 +1,40 @@
+# ── Datasets ─────────────────────────────────────────────────────────────────
+Training/datasets/          # images + labels (300 MB+), download via Roboflow
+Training/datasets/*.zip     # original zip archives
+
+# ── Training outputs ──────────────────────────────────────────────────────────
+Training/runs/              # checkpoints, plots, logs
+Training/yolo26n.pt         # base YOLO26n pretrained weights (download separately)
+
+# ── Exported model ────────────────────────────────────────────────────────────
+ cigarette_yolo26n.mlpackage is committed so the iOS app can use it
+ Training/cigarette_yolo26n.mlpackage/
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.venv310/
+*.egg-info/
+dist/
+build/
+
+# ── macOS ─────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+
+# ── Xcode / iOS ───────────────────────────────────────────────────────────────
+xcuserdata/
+*.xcworkspace/xcuserdata/
+DerivedData/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3

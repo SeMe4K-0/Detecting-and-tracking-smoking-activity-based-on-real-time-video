@@ -1,0 +1,8 @@
+ultralytics>=8.3
+roboflow
+torch
+torchvision
+coremltools>=8.0
+# opencv-python-headless is installed automatically by roboflow.
+# Do NOT add opencv-python here — having both packages causes import conflicts.
+matplotlib

@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['person', 'smoke']
+
+roboflow:
+  workspace: project-i6bzi
+  project: smoking-person-detection-ec7ec
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project-i6bzi/smoking-person-detection-ec7ec/dataset/1

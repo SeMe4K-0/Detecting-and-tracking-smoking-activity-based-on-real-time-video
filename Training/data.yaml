@@ -1,0 +1,10 @@
+# Smoking Person Detection dataset
+# Class 0: person (full body)
+# Class 1: smoke (cigarette / smoke near mouth)
+# Smoking = smoke bbox overlaps person bbox
+
+train: datasets/smoking_detection/train/images
+val:   datasets/smoking_detection/valid/images
+
+nc: 2
+names: ['person', 'smoke']

@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['0']
+
+roboflow:
+  workspace: cigarette-7k8kb
+  project: cigarette-2uvvq
+  version: 4
+  license: Public Domain
+  url: https://universe.roboflow.com/cigarette-7k8kb/cigarette-2uvvq/dataset/4
