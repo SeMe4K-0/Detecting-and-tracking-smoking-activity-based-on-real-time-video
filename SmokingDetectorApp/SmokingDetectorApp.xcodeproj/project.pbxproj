@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03B0E4F3E171C2FCC6348ACA /* cigarette_yolo26n.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 6A73C2C926132D077592ACAE /* cigarette_yolo26n.mlpackage */; };
+		0E4D4F35D4F7F4577E34A5D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC5660DBF3D241D6C998045B /* LaunchScreen.storyboard */; };
+		36108A57F0231B2785EAE6CA /* BoundingBoxOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7924FDC8E1DE43EADE5750 /* BoundingBoxOverlayView.swift */; };
+		5BD675300F2BC5F3B5218AF7 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49D7F13330F8314E6B01D6B /* CameraManager.swift */; };
+		5C0E55407300FF15B29501EE /* Detection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF5696D37F3AAFF893149D1 /* Detection.swift */; };
+		90ECB0BCB2B3BF1722FFCB2E /* SmokingDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1F5BEC2029329EBA028156 /* SmokingDetector.swift */; };
+		B0B9F941967DA196AA74AA8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7825FFE11ECF1C729909ED4 /* AppDelegate.swift */; };
+		E604456F97C99B8817768F3B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAB2DC213F34590A75155A1 /* SceneDelegate.swift */; };
+		F5E6B1D72280B1494B215323 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E072A1765CE9A1C14868DE /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11E072A1765CE9A1C14868DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4F1F5BEC2029329EBA028156 /* SmokingDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmokingDetector.swift; sourceTree = "<group>"; };
+		6A73C2C926132D077592ACAE /* cigarette_yolo26n.mlpackage */ = {isa = PBXFileReference; path = cigarette_yolo26n.mlpackage; sourceTree = "<group>"; };
+		87171A64DB0DB160739FB895 /* SmokingDetectorApp.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SmokingDetectorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC5660DBF3D241D6C998045B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCAB2DC213F34590A75155A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E49D7F13330F8314E6B01D6B /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		E7825FFE11ECF1C729909ED4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBF5696D37F3AAFF893149D1 /* Detection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detection.swift; sourceTree = "<group>"; };
+		ED7924FDC8E1DE43EADE5750 /* BoundingBoxOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundingBoxOverlayView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		168CC1062CD48F7DB8C0AC82 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6A73C2C926132D077592ACAE /* cigarette_yolo26n.mlpackage */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6255D93747637C866D5E2C9C = {
+			isa = PBXGroup;
+			children = (
+				75FF46705FCECFF66D23FD49 /* SmokingDetectorApp */,
+				9786D73E4789618A2A1A4FD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75FF46705FCECFF66D23FD49 /* SmokingDetectorApp */ = {
+			isa = PBXGroup;
+			children = (
+				E7825FFE11ECF1C729909ED4 /* AppDelegate.swift */,
+				ED7924FDC8E1DE43EADE5750 /* BoundingBoxOverlayView.swift */,
+				E49D7F13330F8314E6B01D6B /* CameraManager.swift */,
+				EBF5696D37F3AAFF893149D1 /* Detection.swift */,
+				DC5660DBF3D241D6C998045B /* LaunchScreen.storyboard */,
+				DCAB2DC213F34590A75155A1 /* SceneDelegate.swift */,
+				4F1F5BEC2029329EBA028156 /* SmokingDetector.swift */,
+				11E072A1765CE9A1C14868DE /* ViewController.swift */,
+				168CC1062CD48F7DB8C0AC82 /* Resources */,
+			);
+			name = SmokingDetectorApp;
+			path = Sources/SmokingDetectorApp;
+			sourceTree = "<group>";
+		};
+		9786D73E4789618A2A1A4FD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87171A64DB0DB160739FB895 /* SmokingDetectorApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08AD67CDDA6B2F4CEF9904F8 /* SmokingDetectorApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B6C8C7559A51B7D75B7A1D /* Build configuration list for PBXNativeTarget "SmokingDetectorApp" */;
+			buildPhases = (
+				F364281285A40118260A6E58 /* Sources */,
+				B0AE758A56BF13D325AF22C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmokingDetectorApp;
+			packageProductDependencies = (
+			);
+			productName = SmokingDetectorApp;
+			productReference = 87171A64DB0DB160739FB895 /* SmokingDetectorApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D80EEA77DE69894DCEAB07F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					08AD67CDDA6B2F4CEF9904F8 = {
+						DevelopmentTeam = 8PJ2K2PWXK;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6EF645AB52E0118FB1C6F3C7 /* Build configuration list for PBXProject "SmokingDetectorApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 6255D93747637C866D5E2C9C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9786D73E4789618A2A1A4FD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08AD67CDDA6B2F4CEF9904F8 /* SmokingDetectorApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0AE758A56BF13D325AF22C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E4D4F35D4F7F4577E34A5D1 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F364281285A40118260A6E58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0B9F941967DA196AA74AA8B /* AppDelegate.swift in Sources */,
+				36108A57F0231B2785EAE6CA /* BoundingBoxOverlayView.swift in Sources */,
+				5BD675300F2BC5F3B5218AF7 /* CameraManager.swift in Sources */,
+				5C0E55407300FF15B29501EE /* Detection.swift in Sources */,
+				E604456F97C99B8817768F3B /* SceneDelegate.swift in Sources */,
+				90ECB0BCB2B3BF1722FFCB2E /* SmokingDetector.swift in Sources */,
+				F5E6B1D72280B1494B215323 /* ViewController.swift in Sources */,
+				03B0E4F3E171C2FCC6348ACA /* cigarette_yolo26n.mlpackage in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3DAC3EADB731397D7490AA9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9FD634E86BEF0FA9E2AACF34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A528A9F8BE57ECEDA13B47DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8PJ2K2PWXK;
+				INFOPLIST_FILE = Sources/SmokingDetectorApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.semyon.SmokingDetectorApp;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1FA03BCC3FE04A71F48E044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8PJ2K2PWXK;
+				INFOPLIST_FILE = Sources/SmokingDetectorApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.semyon.SmokingDetectorApp;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18B6C8C7559A51B7D75B7A1D /* Build configuration list for PBXNativeTarget "SmokingDetectorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A528A9F8BE57ECEDA13B47DC /* Debug */,
+				F1FA03BCC3FE04A71F48E044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6EF645AB52E0118FB1C6F3C7 /* Build configuration list for PBXProject "SmokingDetectorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DAC3EADB731397D7490AA9B /* Debug */,
+				9FD634E86BEF0FA9E2AACF34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D80EEA77DE69894DCEAB07F1 /* Project object */;
+}

@@ -1,0 +1,17 @@
+name: SmokingDetectorApp
+targets:
+  SmokingDetectorApp:
+    type: application
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - path: Sources/SmokingDetectorApp
+        excludes:
+          - Info.plist
+      - path: Sources/SmokingDetectorApp/Resources
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.semyon.SmokingDetectorApp
+      INFOPLIST_FILE: Sources/SmokingDetectorApp/Info.plist
+      SWIFT_VERSION: "5.9"
+      CODE_SIGN_STYLE: Automatic
+      DEVELOPMENT_TEAM: 8PJ2K2PWXK
